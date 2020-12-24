@@ -1,5 +1,20 @@
 #!/usr/bin/env python3
 
+#The binary_search function returns the position of key in the list if found,
+#or -1 if not found. We want to make sure that it's working correctly, so we
+#need to place debugging lines to let us know each time that the list is cut
+#in half, whether we're on the left or the right. Nothing needs to be
+#printed when the key has been located.
+
+#For example, binary_search([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3) first determines
+#that the key, 3, is in the left half of the list, and prints "Checking the
+#left side", then determines that it's in the right half of the new list
+#and prints "Checking the right side", before returning the value of 2,
+#which is the position of the key in the list.
+
+#Add commands to the code, to print out "Checking the left side" 
+#or "Checking the right side", in the appropriate places.
+
 def binary_search(list, key):
     #Returns the position of key in the list if found, -1 otherwise.
 
