@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def binary_search(list, key):
     #Returns the position of key in the list if found, -1 otherwise.
 
